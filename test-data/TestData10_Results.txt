@@ -1,0 +1,104 @@
+Pumping Station 0:
+Total Pipeline Length: 244,797
+  From Point 1 to Point 8: Length 2,115
+  From Point 7 to Point 10: Length 7,529
+  From Point 2 to Point 5: Length 20,849
+  From Point 2 to Point 9: Length 22,448
+  From Point 3 to Point 8: Length 23,767
+  From Point 4 to Point 9: Length 25,552
+  From Point 1 to Point 4: Length 30,747
+  From Point 4 to Point 7: Length 30,813
+  From Point 0 to Point 1: Length 40,061
+  From Point 5 to Point 6: Length 40,917
+
+Pumping Station 1:
+Total Pipeline Length: 247,696
+  From Point 1 to Point 8: Length 2,115
+  From Point 4 to Point 10: Length 17,039
+  From Point 2 to Point 5: Length 20,849
+  From Point 2 to Point 9: Length 22,448
+  From Point 3 to Point 8: Length 23,767
+  From Point 8 to Point 10: Length 24,135
+  From Point 4 to Point 9: Length 25,552
+  From Point 4 to Point 7: Length 30,813
+  From Point 0 to Point 1: Length 40,061
+  From Point 5 to Point 6: Length 40,917
+
+Pumping Station 2:
+Total Pipeline Length: 256,928
+  From Point 1 to Point 8: Length 2,115
+  From Point 3 to Point 10: Length 19,659
+  From Point 2 to Point 5: Length 20,849
+  From Point 2 to Point 9: Length 22,448
+  From Point 3 to Point 8: Length 23,767
+  From Point 4 to Point 9: Length 25,552
+  From Point 1 to Point 4: Length 30,747
+  From Point 4 to Point 7: Length 30,813
+  From Point 0 to Point 1: Length 40,061
+  From Point 5 to Point 6: Length 40,917
+
+Pumping Station 3:
+Total Pipeline Length: 262,278
+  From Point 1 to Point 8: Length 2,115
+  From Point 2 to Point 5: Length 20,849
+  From Point 2 to Point 9: Length 22,448
+  From Point 3 to Point 8: Length 23,767
+  From Point 4 to Point 9: Length 25,552
+  From Point 1 to Point 4: Length 30,747
+  From Point 4 to Point 7: Length 30,813
+  From Point 0 to Point 10: Length 31,447
+  From Point 3 to Point 10: Length 33,623
+  From Point 5 to Point 6: Length 40,917
+
+Pumping Station 4:
+Total Pipeline Length: 288,623
+  From Point 1 to Point 8: Length 2,115
+  From Point 2 to Point 5: Length 20,849
+  From Point 2 to Point 9: Length 22,448
+  From Point 3 to Point 8: Length 23,767
+  From Point 4 to Point 9: Length 25,552
+  From Point 1 to Point 4: Length 30,747
+  From Point 4 to Point 7: Length 30,813
+  From Point 0 to Point 1: Length 40,061
+  From Point 5 to Point 6: Length 40,917
+  From Point 0 to Point 10: Length 51,355
+
+Pumping Station 5:
+Total Pipeline Length: 283,205
+  From Point 1 to Point 8: Length 2,115
+  From Point 2 to Point 5: Length 20,849
+  From Point 2 to Point 9: Length 22,448
+  From Point 3 to Point 8: Length 23,767
+  From Point 4 to Point 9: Length 25,552
+  From Point 1 to Point 4: Length 30,747
+  From Point 4 to Point 7: Length 30,813
+  From Point 0 to Point 1: Length 40,061
+  From Point 5 to Point 6: Length 40,917
+  From Point 0 to Point 10: Length 45,936
+
+Pumping Station 6:
+Total Pipeline Length: 244,449
+  From Point 1 to Point 8: Length 2,115
+  From Point 6 to Point 10: Length 7,180
+  From Point 2 to Point 5: Length 20,849
+  From Point 2 to Point 9: Length 22,448
+  From Point 3 to Point 8: Length 23,767
+  From Point 4 to Point 9: Length 25,552
+  From Point 1 to Point 4: Length 30,747
+  From Point 4 to Point 7: Length 30,813
+  From Point 0 to Point 1: Length 40,061
+  From Point 5 to Point 6: Length 40,917
+
+Pumping Station 7:
+Total Pipeline Length: 244,660
+  From Point 1 to Point 8: Length 2,115
+  From Point 2 to Point 10: Length 7,392
+  From Point 2 to Point 5: Length 20,849
+  From Point 2 to Point 9: Length 22,448
+  From Point 3 to Point 8: Length 23,767
+  From Point 4 to Point 9: Length 25,552
+  From Point 1 to Point 4: Length 30,747
+  From Point 4 to Point 7: Length 30,813
+  From Point 0 to Point 1: Length 40,061
+  From Point 5 to Point 6: Length 40,917
+

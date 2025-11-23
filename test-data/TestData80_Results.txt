@@ -1,0 +1,24 @@
+Pumping Station 0:
+Total Pipeline Length: 760,975
+
+Pumping Station 1:
+Total Pipeline Length: 745,364
+
+Pumping Station 2:
+Total Pipeline Length: 764,796
+
+Pumping Station 3:
+Total Pipeline Length: 754,198
+
+Pumping Station 4:
+Total Pipeline Length: 754,924
+
+Pumping Station 5:
+Total Pipeline Length: 750,712
+
+Pumping Station 6:
+Total Pipeline Length: 763,590
+
+Pumping Station 7:
+Total Pipeline Length: 756,423
+
