@@ -29,11 +29,11 @@ auto mst_length(const std::vector<Point>& pts) -> double {
     min_edge[0] = 0.0;
     double total = 0.0;
 
-    for (size_t i = 0; i < n; ++i) {
+    for (size_t i = 0; i < n; i++) {
         double best = std::numeric_limits<double>::max();
         size_t u = n;
 
-        for (size_t j = 0; j < n; ++j) {
+        for (size_t j = 0; j < n; j++) {
             if (!in_mst[j] && min_edge[j] < best) {
                 best = min_edge[j];
                 u = j;
@@ -46,7 +46,7 @@ auto mst_length(const std::vector<Point>& pts) -> double {
         in_mst[u] = true;
         total += min_edge[u];
 
-        for (size_t v = 0; v < n; ++v) {
+        for (size_t v = 0; v < n; v++) {
             if (!in_mst[v]) {
                 double d = dist(pts[u], pts[v]);
                 min_edge[v] = std::min(d, min_edge[v]);
@@ -57,23 +57,23 @@ auto mst_length(const std::vector<Point>& pts) -> double {
     return total;
 }
 
-auto main(int argc, char* argv[]) -> int32_t {
+auto main(int32_t argc, char* argv[]) -> int32_t {
     if (argc != 3) {
         std::cerr << "Usage: " << argv[0]
                   << " <platforms_file> <stations_file>\n";
-        return 1;
+        return -1;
     }
 
     std::ifstream pf(argv[1]);
     if (!pf) {
         std::cerr << "Failed to open platforms file: " << argv[1] << '\n';
-        return 2;
+        return -1;
     }
 
     std::ifstream sf(argv[2]);
     if (!sf) {
         std::cerr << "Failed to open stations file: " << argv[2] << '\n';
-        return 3;
+        return -1;
     }
 
     std::vector<Point> platforms;
@@ -91,21 +91,21 @@ auto main(int argc, char* argv[]) -> int32_t {
 
     if (platforms.empty() || stations.empty()) {
         std::cerr << "No platforms or no stations loaded.\n";
-        return 4;
+        return -1;
     }
 
     double min_length = std::numeric_limits<double>::max();
 
-    int best_idx = -1;
+    int32_t best_idx = -1;
 
-    for (size_t i = 0; i < stations.size(); ++i) {
+    for (size_t i = 0; i < stations.size(); i++) {
         std::vector<Point> all = platforms;
         all.push_back(stations[i]);
         double length = mst_length(all);
 
         if (length < min_length) {
             min_length = length;
-            best_idx = static_cast<int>(i);
+            best_idx = static_cast<int32_t>(i);
         }
     }
 
